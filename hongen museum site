@@ -2,28 +2,3 @@
 <html lang="zh-Hant">
 <head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>陳弘恩的人體博物館</title><link rel="stylesheet" href="css/styles.css"/></head>
 <body><header><h1>陳弘恩的人體博物館</h1><p>一場身體與藝術的對話。</p><button onclick="location.href='exhibits.html'">探索展品</button></header></body></html>
-
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>展品分類</title><link rel="stylesheet" href="css/styles.css"/><script src="js/app.js" defer></script></head>
-<body><header><h1>展品分類</h1></header><div id="exhibit-list"></div><script>renderExhibits();</script></body></html>
-
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>展品詳情</title><link rel="stylesheet" href="css/styles.css"/><script src="js/app.js" defer></script></head>
-<body><header><h1>展品詳情</h1></header><div id="detail"></div><script>renderDetail();</script></body></html>
-
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>購物車</title><link rel="stylesheet" href="css/styles.css"/><script src="js/app.js" defer></script></head>
-<body><header><h1>購物車</h1></header><div id="cart-content"></div><button onclick="location.href='checkout.html'">結帳</button><script>renderCart();</script></body></html>
-
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>結帳</title><link rel="stylesheet" href="css/styles.css"/></head>
-<body><header><h1>填寫收件資訊</h1></header><form onsubmit="event.preventDefault(); location.href='thankyou.html';"><label>收件信箱：<input type="email" required></label><button type="submit">送出</button></form></body></html>
-
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>感謝您的購買</title><link rel="stylesheet" href="css/styles.css"/></head>
-<body><header><h1>感謝您的參與 🤍</h1></header><p>陳弘恩的展品將盡快寄出，請耐心等待 🥰</p><button onclick="location.href='index.html'">返回主頁</button></body></html>
